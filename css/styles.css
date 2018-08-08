@@ -543,3 +543,187 @@ color: #fff;
   color: #fff;
   text-decoration: underline;
 }
+
+/*Beginning of Login*/
+
+.login {
+	width: 80%;
+	height: 80%;
+	top: 10%;
+	left: 5%;
+	bottom: 10%;
+	color: #fff;
+	background-color:#474747;
+	padding:0px 5%;
+	border-radius:10px;
+	position: absolute;
+	overflow: auto;
+}
+
+.login button{
+	border-radius:3px;
+	border-style: none;
+	padding:0;
+}
+
+.Steam {
+	margin:2px;
+	background-color: #231f20;
+    color: white;
+    font-size: 18px;
+	width: 120px;
+	height: 50px;
+	float: left;
+}
+
+.Discord {
+	margin:2px;
+	background-color: #7289d9;
+    color: white;
+	width: 120px;
+	height: 50px;
+	float: left;
+}
+
+.Twitter {
+	margin:2px;
+	background-color: #55acee;
+    color: white;
+    font-size: 18px;
+	width: 120px;
+	height: 50px;
+	float: left;
+}
+
+.Facebook {
+	margin:2px;
+	background-color: #3b5998;
+    color: white;
+    font-size: 18px;
+	width: 120px;
+	height: 50px;
+	float: left;
+}
+
+.buttonFull img{
+	width:90%;
+	height:auto;
+	padding:0;
+	float:left;
+	margin:10px 0px 0px 7px;
+}
+
+.buttonLogo{
+	width:40%;
+	height:auto;
+	padding:0;
+	margin:2px 0px 0px 10px;
+}
+
+.buttonLogo img{
+	width:40px;
+	height:40px;
+	padding:0;
+	float:left;
+}
+
+.buttonText{
+	padding:0;
+	float: right;
+	font-size: 18px;
+	margin:10px 9px 0px 0px;
+}
+
+.LoginForms{
+	float: left;
+	width: 100%;
+}
+
+.submitButton input{
+	background-color: #fff;
+	border-radius:3px;
+	border-style: none;
+	font-size: 14px;
+	width: 100px;
+	height: 40px;
+	margin-top: 10px;
+	padding:0;
+}
+
+/* End of Login*/
+
+/* Beginning of SignUp*/
+
+.signup {
+	text-align: center;
+	align-content: center;
+	width: 74%;
+	height: 80%;
+	top: 10%;
+	left: 5%;
+	bottom: 10%;
+	color: #fff;
+	background-color:#474747;
+	padding:0px 5%;
+	border-radius:10px;
+	position: absolute;
+	overflow: auto;
+}
+
+.signup button{
+	border-radius:3px;
+	border-style: none;
+	padding:0;
+}
+
+.SteamSignup {
+	margin:2px;
+	background-color: #231f20;
+    color: white;
+    font-size: 18px;
+	width: 120px;
+	height: 50px;
+	float:center;
+}
+
+.DiscordSignup {
+	margin:2px;
+	background-color: #7289d9;
+    color: white;
+	width: 120px;
+	height: 50px;
+	float: center;
+}
+
+.TwitterSignup {
+	margin:2px;
+	background-color: #55acee;
+    color: white;
+    font-size: 18px;
+	width: 120px;
+	height: 50px;
+	float: center;
+}
+
+.FacebookSignup {
+	margin:2px ;
+	background-color: #3b5998;
+    color: white;
+    font-size: 18px;
+	width: 120px;
+	height: 50px;
+	float: center;
+}
+
+.SignupButtons{
+	min-height:60px;
+	max-height: 120px;
+	overflow: hidden;
+}
+
+.SignupForms{
+	float: left;
+	width: 100%;
+}
+
+/* End of SignUp*/
